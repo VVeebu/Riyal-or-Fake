@@ -9,4 +9,4 @@ Download link:
 - Kaggle: [<https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset>] 
 
 After download, place files in:
-`data/full/`
+`Audio/Training`
