@@ -1,1 +1,4 @@
 Audio/Training/
+
+__pycache__/
+*.pyc
