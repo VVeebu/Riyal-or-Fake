@@ -6,7 +6,7 @@ A small sample dataset is provided in `Audio/Testing` for testing.
 
 ### Full dataset
 Download link:
-- Kaggle: [<link>](https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset)
+- Kaggle: [<https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset>] 
 
 After download, place files in:
 `data/full/`
