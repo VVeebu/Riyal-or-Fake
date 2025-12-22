@@ -80,7 +80,7 @@ with tab_viz:
         fig2, ax2 = plt.subplots()
         img = librosa.display.specshow(
             mfcc,
-            x_axis="time",
+            x_axis="frequency",
             sr=sr,
             ax=ax2
         )
@@ -99,7 +99,7 @@ with tab_viz:
         img = librosa.display.specshow(
             S_dB,
             sr=sr,
-            x_axis="time",
+            x_axis="frequency",
             y_axis="mel",
             fmax=sr // 2,
             cmap="magma",
@@ -111,4 +111,3 @@ with tab_viz:
         plt.tight_layout()
 
         st.pyplot(fig)
-        
