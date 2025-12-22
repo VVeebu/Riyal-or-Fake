@@ -64,7 +64,7 @@ with tab_viz:
         st.audio(uploaded_viz)
 
         # Load audio
-        y, sr = librosa.load(audio_path, sr=16000)
+        y, sr = librosa.load(audio_path, sr=44100)
 
         # Waveform
         st.subheader("Waveform")
@@ -75,7 +75,7 @@ with tab_viz:
 
         # MFCC
         st.subheader("MFCC (Mel-Frequency Cepstral Coefficients)")
-        mfcc = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=20)
+        mfcc = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=40)
 
         fig2, ax2 = plt.subplots()
         img = librosa.display.specshow(
@@ -111,5 +111,4 @@ with tab_viz:
         plt.tight_layout()
 
         st.pyplot(fig)
-
-
+        
